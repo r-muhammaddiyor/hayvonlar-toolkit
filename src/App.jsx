@@ -79,35 +79,35 @@ export default function App() {
           placeholder="Name"
           required
           value={formData.name}
-          onChange={(e) => setFormData({ ...formData, name: e.currentTarget.value })}
+          onChange={(el) => setFormData({ ...formData, name: el.currentTarget.value })}
           mb="sm"
         />
         <TextInput
           placeholder="Latin Name"
           required
           value={formData.latinName}
-          onChange={(e) => setFormData({ ...formData, latinName: e.currentTarget.value })}
+          onChange={(el) => setFormData({ ...formData, latinName: el.currentTarget.value })}
           mb="sm"
         />
         <TextInput
           placeholder="Type"
           required
           value={formData.type}
-          onChange={(e) => setFormData({ ...formData, type: e.currentTarget.value })}
+          onChange={(el) => setFormData({ ...formData, type: el.currentTarget.value })}
           mb="sm"
         />
         <TextInput
           placeholder="Habitat"
           required
           value={formData.habitat}
-          onChange={(e) => setFormData({ ...formData, habitat: e.currentTarget.value })}
+          onChange={(el) => setFormData({ ...formData, habitat: el.currentTarget.value })}
           mb="sm"
         />
         <TextInput
           placeholder="Diet"
           required
           value={formData.diet}
-          onChange={(e) => setFormData({ ...formData, diet: e.currentTarget.value })}
+          onChange={(el) => setFormData({ ...formData, diet: el.currentTarget.value })}
           mb="sm"
         />
         <Button fullWidth mt="md" onClick={handleSubmit}>
